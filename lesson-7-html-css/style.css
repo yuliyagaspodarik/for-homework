@@ -1,0 +1,13 @@
+h1 {
+    text-align: right;
+    color: orange;
+}
+p:first-letter {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+p em {
+    background-color: green;
+    color: white;
+}

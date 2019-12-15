@@ -11,3 +11,21 @@ p em {
     background-color: green;
     color: white;
 }
+h2 {
+    color: orange;
+}
+h2 ~ h2 {
+    color: blue;
+}
+span {
+    font-weight: bold;
+}
+ol > li {
+    color: red;
+}
+.fruit-ogorod {
+    color: gray;
+}
+.fruit-sklad {
+    color: green;
+}

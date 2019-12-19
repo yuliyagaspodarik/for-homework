@@ -1,0 +1,70 @@
+h1 {
+    text-align: right;
+    color: orange;
+}
+p:first-letter {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+p em {
+    background-color: green;
+    color: white;
+}
+h2 {
+    color: orange;
+}
+h2 ~ h2 {
+    color: blue;
+}
+span {
+    font-weight: bold;
+}
+ol > li {
+    color: red;
+}
+.fruit-ogorod {
+    color: gray;
+}
+.fruit-sklad {
+    color: green;
+}
+table {
+    width: 70%;
+    border-top: solid gray;
+    border-right: solid black;
+    border-bottom: solid black;
+    border-left: solid gray;
+}
+td {
+        border-top: solid black;
+    border-right: solid gray;
+    border-bottom: solid gray;
+    border-left: solid black;
+}
+td~td {
+    text-align: center;
+    font-weight: bold;
+}
+[rowspan] {
+    text-align: center;
+    font-weight: bold;
+}
+[colspan] {
+    text-align: center;
+    font-weight: bold;
+}
+.number {
+    color: white;
+    background-color: green;
+}
+.names {
+    text-align: left;
+    font-weight: bold;
+    color: orange;
+}
+#urok1 {
+    text-align: center;
+    font-weight: bold;
+}
+

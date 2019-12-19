@@ -1,0 +1,15 @@
+[href="task2.html"] {
+    color: blue;
+    font-weight: bold;
+}
+[href^="https://"] {
+    color: #f70;
+    font-weight: bold;
+}
+[href*="google"] {
+    color: #666;
+    font-weight: bold;
+}
+/*[target="_blank"] */span {
+    color: #f70;
+}

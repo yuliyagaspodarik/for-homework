@@ -7,6 +7,7 @@
     font-size: 18px;
     color: white;
 }
+
 .red {
     background-color: #FF0000;
 }
@@ -18,6 +19,7 @@
 .blue {
     background-color: #0000FF;
 }
+
 label[for="red"],
 label[for="green"],
 label[for="blue"] {
@@ -27,6 +29,7 @@ label[for="blue"] {
     font-weight: 600;
     font-size: 18px;
 }
+
 label[for="red"] {
     color: #FF0000;
 }
@@ -37,4 +40,20 @@ label[for="green"] {
 
 label[for="blue"] {
     color: #0000FF;
+}
+
+#red:checked ~ label[for="red"],
+#blue:checked ~ label[for="blue"],
+#green:checked ~ label[for="green"] {
+    opacity: 0.3;
+}
+
+#red:checked ~ span[class="red"],
+#green:checked ~ span[class="green"],
+#blue:checked ~ span[class="blue"] {
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
 }

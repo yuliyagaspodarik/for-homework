@@ -1,0 +1,60 @@
+nav {
+    background-color: #FAFAFA;
+    line-height: 35px;
+    width: 480px;
+    font-family: "MS Reference Sans Serif";
+    font-size: 10px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+    letter-spacing: -0.015em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 7px;
+    border: 1px #E4E4E4 solid;
+    border-radius: 4px;
+    line-height: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A23ACF;
+    padding: 2px;
+}
+
+nav ul li:hover {
+    background-color: #A13BCF;
+    border: 1px #6B2A9B solid;
+}
+
+nav li:hover > a {
+    color: #FAFAFA;
+}
+
+li:first-child,
+li:last-child,
+li:nth-child(2),
+li:nth-last-child(2),
+nav ul li:nth-child(5) {
+    border: none;
+}
+
+/*nav ul li:nth-child(even):first-child,
+nav ul li:nth-child(odd):last-child {
+    border: none;
+ } почему не работает*/
+
+li:first-child a:before,
+li:nth-child(2) a:before {
+    content: "\00ab";
+}
+
+li:last-child a:after,
+li:nth-last-child(2) a:after {
+    content: "\00bb";
+}

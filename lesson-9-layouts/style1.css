@@ -1,0 +1,59 @@
+.red, .green, .blue {
+    border-radius: 7px;
+    padding: 2px 10px;
+    margin: 2px;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.green {
+    background-color: #008100;
+}
+
+.blue {
+    background-color: #0000FF;
+}
+
+label[for="red"],
+label[for="green"],
+label[for="blue"] {
+    text-decoration: underline;
+    padding: 0 20px;
+    font-family: Arial;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+label[for="red"] {
+    color: #FF0000;
+}
+
+label[for="green"] {
+    color: #008100;
+}
+
+label[for="blue"] {
+    color: #0000FF;
+}
+
+#red:checked ~ label[for="red"],
+#blue:checked ~ label[for="blue"],
+#green:checked ~ label[for="green"] {
+    opacity: 0.3;
+}
+
+#red:checked ~ span[class="red"],
+#green:checked ~ span[class="green"],
+#blue:checked ~ span[class="blue"] {
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}

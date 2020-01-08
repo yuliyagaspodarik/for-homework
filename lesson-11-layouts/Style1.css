@@ -32,17 +32,15 @@ body {
 
 .standart,
 .ultimate {
-    border-left: 1px solid #ECEDEF;
-    border-right: 1px solid #ECEDEF;
-    border-bottom: 1px solid #ECEDEF;
-    border-top: 1px transparent;
+    border: 1px solid;
+    border-color: transparent #ECEDEF #ECEDEF #ECEDEF;
 }
 
 .best-value {
     border: 2px solid #EE8129;
     box-shadow: 0 0 5px 1px #97a9ba;
     z-index: 1;
-    top: -12px
+    top: -11px
 }
 
 .price__title {

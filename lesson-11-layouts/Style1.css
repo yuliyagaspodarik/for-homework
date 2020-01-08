@@ -1,24 +1,24 @@
 body {
     font-family: "Open Sans", Arial, sans-serif;
-    box-sizing: border-box;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .section__title {
     text-transform: uppercase;
     text-align: left;
-    padding: 0 35px;
-    color: #40525C;
     font-weight: 600;
+    color: #40525C;
+    padding: 0 35px;
     margin: 20px auto 55px;
 }
 
 .price {
     background-color: white;
     border-radius: 5px;
-    float: left;
     width: 16%;
     min-width: 180px;
+    float: left;
     position: relative;
 }
 
@@ -39,38 +39,38 @@ body {
 .best-value {
     border: 2px solid #EE8129;
     box-shadow: 0 0 5px 1px #97a9ba;
+    top: -11px;
     z-index: 1;
-    top: -11px
 }
 
 .price__title {
     text-transform: uppercase;
     font-size: 18px;
-    margin: 0;
     font-weight: 600;
+    margin: 0;
     padding: 13px 0;
 }
 
 .price__content {
     text-transform: uppercase;
-    color: #3F4042;
     font-size: 18px;
-    margin: 0;
     font-weight: 600;
+    color: #3F4042;
     padding: 15px 0 0 0;
+    margin: 0;
 }
 
 .price__value {
-    color: #35495A;
     font-size: 55px;
     font-weight: 600;
+    color: #35495A;
     margin: 0 auto 17px;
 }
 
 .price__value sup {
+    font-size: 18px;
     position: relative;
     top: -10px;
-    font-size: 18px;
 }
 
 .price__value sub {
@@ -79,9 +79,9 @@ body {
 
 .price__options {
     list-style-type: none;
-    color: #9DA2AA;
     width: 90%;
     font-size: 12px;
+    color: #9DA2AA;
     padding: 0;
     margin: 0 auto 14px;
 }
@@ -90,8 +90,8 @@ body {
     background: url("images/arrow.png") no-repeat;
     background-position: 30px 5px;
     border: 1px solid white;
-    padding: 4px 8px 5px 58px;
     text-align: left;
+    padding: 4px 8px 5px 58px;
 }
 
 .price__options li:nth-child(odd) {
@@ -105,10 +105,10 @@ body {
 .price__cta-button {
     display: block;
     width: 82%;
-    font-size: 12px;
-    font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
     border-radius: 5px;
     margin: 0 auto 20px;
     padding: 7px;
@@ -116,24 +116,24 @@ body {
 
 .standart .price__title,
 .ultimate .price__title {
-    color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+    color: white;
 }
 
 .standart .price__title {
-    background-color: #2BC2D5;
     border: #2BC2D5;
+    background-color: #2BC2D5;
 }
 
 .ultimate .price__title {
-    background-color: #00B89A;
     border: #00B89A;
+    background-color: #00B89A;
 }
 
 .best-value .price__title {
-    background-color: #EE8129;
     border: #EE8129;
+    background-color: #EE8129;
     color: white;
     padding: 18px 0 18px;
 }
@@ -146,8 +146,8 @@ body {
 }
 
 .best-value .price__cta-button {
-    color: white;
     background-color: #EE8129;
+    color: white;
     box-shadow: 0 3px 0 0 #B3560B;
     margin-bottom: 30px;
 }

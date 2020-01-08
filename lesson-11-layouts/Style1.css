@@ -6,28 +6,26 @@ body {
 
 .section__title {
     text-transform: uppercase;
-    text-align: left;
     font-weight: 600;
     color: #40525C;
-    padding: 0 35px;
     margin: 20px auto 55px;
 }
 
 .price {
+    display: inline-block;
     background-color: white;
     border-radius: 5px;
     width: 16%;
-    min-width: 180px;
-    float: left;
+    min-width: 215px;
     position: relative;
 }
 
 .standart {
-    left: 3px;
+    left: 10px;
 }
 
 .ultimate {
-    left: -3px;
+    left: -10px;
 }
 
 .standart,
@@ -39,7 +37,6 @@ body {
 .best-value {
     border: 2px solid #EE8129;
     box-shadow: 0 0 5px 1px #97a9ba;
-    top: -11px;
     z-index: 1;
 }
 

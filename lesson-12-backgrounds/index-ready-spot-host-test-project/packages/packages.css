@@ -1,1 +1,73 @@
-/* Write your code here */
+body {
+    background: url("../images/plans-background.jpg") no-repeat;
+    background-size: cover;
+    font-family: "Anton", sans-serif;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.plan {
+    background-color: #B2B2B0;
+    opacity: 0.9;
+    border: 2px solid #916B64;
+    width: 75%;
+    padding: 10px 20px 20px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.plan:nth-child(odd) {
+    left: -3px;
+    text-align: left;
+}
+
+.plan:nth-child(even) {
+    left: calc(25% + 3px);
+    text-align: right;
+}
+
+.plan__annotation {
+    background-color: #D83F2D;
+    color: white;
+    width: 120px;
+    font-size: 12px;
+    text-align: center;
+    padding: 6px;
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+
+.plan__title {
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+}
+
+.plan__feature {
+    font-size: 23px;
+    font-weight: 700;
+    color: #201A19;
+}
+
+.plan__description {
+    background-color: white;
+    border: 1px solid #201A19;
+    color: #201A19;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.premium {
+    background-color: #916B64;
+}
+
+.premium h1 {
+    color: white;
+}
+
+.premium h2 {
+    color: #B2B2B0;
+}

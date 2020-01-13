@@ -1,1 +1,69 @@
-/* Write your code here */
+main {
+    background-color: white;
+    padding: 10px 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.customer__container {
+    width: 95%;
+    position: relative;
+}
+
+.customer__photo img {
+    width: 60%;
+    box-shadow: 1px 1px 4px 2px gray;
+    margin-top: 50px;
+}
+
+.customer__container:nth-child(odd) img {
+    float: left;
+}
+
+.customer__container:nth-child(even) img {
+    float: right;
+}
+
+.customer__description {
+    position: absolute;
+    top: 40%;
+    width: 30%;
+}
+
+.customer__container:nth-child(odd) .customer__description {
+    right: 5%;
+    text-align: right;
+    padding-left: 10px;
+}
+
+.customer__container:nth-child(even) .customer__description {
+    left: 5%;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.clean {
+    clear: both;
+}
+
+.customer__description-name {
+    color: #D83F2D;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.customer__description-achievement {
+    color: #B2B2B0;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.customer__description-himself {
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0;
+}

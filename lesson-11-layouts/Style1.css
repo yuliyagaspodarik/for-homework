@@ -1,0 +1,150 @@
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.section__title {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #40525C;
+    margin: 20px auto 55px;
+}
+
+.price {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    width: 16%;
+    min-width: 215px;
+    position: relative;
+}
+
+.standart {
+    left: 10px;
+}
+
+.ultimate {
+    left: -10px;
+}
+
+.standart,
+.ultimate {
+    border: 1px solid;
+    border-color: transparent #ECEDEF #ECEDEF #ECEDEF;
+}
+
+.best-value {
+    border: 2px solid #EE8129;
+    box-shadow: 0 0 5px 1px #97a9ba;
+    z-index: 1;
+}
+
+.price__title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    padding: 13px 0;
+}
+
+.price__content {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3F4042;
+    padding: 15px 0 0 0;
+    margin: 0;
+}
+
+.price__value {
+    font-size: 55px;
+    font-weight: 600;
+    color: #35495A;
+    margin: 0 auto 17px;
+}
+
+.price__value sup {
+    font-size: 18px;
+    position: relative;
+    top: -10px;
+}
+
+.price__value sub {
+    font-size: 14px;
+}
+
+.price__options {
+    list-style-type: none;
+    width: 90%;
+    font-size: 12px;
+    color: #9DA2AA;
+    padding: 0;
+    margin: 0 auto 14px;
+}
+
+.price__options li {
+    background: url("images/arrow.png") no-repeat;
+    background-position: 30px 5px;
+    border: 1px solid white;
+    text-align: left;
+    padding: 4px 8px 5px 58px;
+}
+
+.price__options li:nth-child(odd) {
+    background-color: #EEF5FC;
+}
+
+.price__options li:nth-child(even) {
+    background-color: #F5F5F6;
+}
+
+.price__cta-button {
+    display: block;
+    width: 82%;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 0 auto 20px;
+    padding: 7px;
+}
+
+.standart .price__title,
+.ultimate .price__title {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+}
+
+.standart .price__title {
+    border: #2BC2D5;
+    background-color: #2BC2D5;
+}
+
+.ultimate .price__title {
+    border: #00B89A;
+    background-color: #00B89A;
+}
+
+.best-value .price__title {
+    border: #EE8129;
+    background-color: #EE8129;
+    color: white;
+    padding: 18px 0 18px;
+}
+
+.standart .price__cta-button,
+.ultimate .price__cta-button {
+    background-color: #2F70A8;
+    color: white;
+    box-shadow: 0 3px 0 0 #12426B;
+}
+
+.best-value .price__cta-button {
+    background-color: #EE8129;
+    color: white;
+    box-shadow: 0 3px 0 0 #B3560B;
+    margin-bottom: 30px;
+}

@@ -11,8 +11,6 @@
       var patronymic = prompt('Ваше отчество?');
       var age = parseInt(prompt('Ваш возраст?'));
       var genderIndex = confirm('Ваш пол - мужской?');
-      var ageFive = age + 5;
-      var ageYear = age * 365;
       var gender;
       if (genderIndex) {
           gender = 'мужской';
@@ -31,8 +29,8 @@
       }
       alert('ваше ФИО: ' + lastName + ' ' + firstName + ' ' + patronymic + '\n' +
           'ваш возраст в годах: ' + age + '\n' +
-          'ваш возраст в днях: ' + ageYear + '\n' +
-          'через 5 лет вам будет: ' + ageFive + '\n' +
+          `ваш возраст в днях: ${age * 365}` + '\n' +
+          `через 5 лет вам будет: ${age + 5}` + '\n' +
           'ваш пол: ' + gender + '\n' +
           'вы на пенсии: ' + pension);
 
